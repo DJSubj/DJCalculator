@@ -11,6 +11,8 @@
 
 @interface NSDate (DJDate)
 
+
+/// 格式化时间字符串 yyyy-MM-dd HH:mm:ss
 + (NSString *)desc;
 
 @end

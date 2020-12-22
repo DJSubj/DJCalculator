@@ -14,11 +14,13 @@
 
 + (instancetype)sharedManager;
 
-
+/// 添加计算记录到数据库
 - (void)addCalculate:(NSString *)expression result:(NSString *)result;
 
+/// 删除记录
 - (void)deleteCalculate:(NSString *)expression;
 
+/// 计算记录列表
 - (NSArray *)getAllCalculate;
 
 @end

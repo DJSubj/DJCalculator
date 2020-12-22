@@ -13,8 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIColor (DJColor)
 
 
+/// 文本颜色
 + (UIColor *)textColor;
 
+/// 背景透明色
 + (UIColor *)translucentColor;
 
 

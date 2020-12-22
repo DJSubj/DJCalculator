@@ -161,7 +161,7 @@
 }
 
 
-#pragma mark - 私有函数
+#pragma mark -
 /// 单次计算
 + (NSString *)calculateWithLeft:(NSString *)left right:(NSString *)right operator:(NSString *)operator {
     NSString *ret = @"Error";

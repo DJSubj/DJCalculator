@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D531649AFD5008306EAA49D /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F8B52A4B6C19A640591534 /* Pods_Calculator.framework */; };
 		C4434FF12373CF3C0022B7DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4434FF02373CF3C0022B7DE /* AppDelegate.m */; };
-		C4434FF42373CF3C0022B7DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4434FF32373CF3C0022B7DE /* ViewController.m */; };
 		C4434FF72373CF3C0022B7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4434FF52373CF3C0022B7DE /* Main.storyboard */; };
 		C4434FF92373CF3D0022B7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4434FF82373CF3D0022B7DE /* Assets.xcassets */; };
 		C4434FFC2373CF3D0022B7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4434FFA2373CF3D0022B7DE /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 		C4D162E925909E5200776E48 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D162E825909E5200776E48 /* snow.png */; };
 		C4E9A0E6258766A400F73EEA /* DJCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E9A0E5258766A400F73EEA /* DJCalculator.m */; settings = {COMPILER_FLAGS = "-Wunused-getter-return-value"; }; };
 		C4F61C5225884FC200C3767B /* DJStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F61C5125884FC200C3767B /* DJStack.m */; };
-		C4F61C572588C02400C3767B /* DJButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F61C562588C02400C3767B /* DJButtonModel.m */; };
 		C4F61C5A2588C36900C3767B /* DJButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F61C592588C36900C3767B /* DJButtonCell.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +34,6 @@
 		C4434FEC2373CF3C0022B7DE /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4434FEF2373CF3C0022B7DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4434FF02373CF3C0022B7DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4434FF22373CF3C0022B7DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4434FF32373CF3C0022B7DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4434FF62373CF3C0022B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4434FF82373CF3D0022B7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4434FFB2373CF3D0022B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,8 +60,6 @@
 		C4E9A0E5258766A400F73EEA /* DJCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJCalculator.m; sourceTree = "<group>"; };
 		C4F61C5025884FC200C3767B /* DJStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJStack.h; sourceTree = "<group>"; };
 		C4F61C5125884FC200C3767B /* DJStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJStack.m; sourceTree = "<group>"; };
-		C4F61C552588C02400C3767B /* DJButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJButtonModel.h; sourceTree = "<group>"; };
-		C4F61C562588C02400C3767B /* DJButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJButtonModel.m; sourceTree = "<group>"; };
 		C4F61C582588C36900C3767B /* DJButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJButtonCell.h; sourceTree = "<group>"; };
 		C4F61C592588C36900C3767B /* DJButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJButtonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,8 +114,6 @@
 				C4C9A204258B0A55000D6B16 /* CalculatorTool */,
 				C4434FEF2373CF3C0022B7DE /* AppDelegate.h */,
 				C4434FF02373CF3C0022B7DE /* AppDelegate.m */,
-				C4434FF22373CF3C0022B7DE /* ViewController.h */,
-				C4434FF32373CF3C0022B7DE /* ViewController.m */,
 				C4435005237412D10022B7DE /* PrefixHeader.pch */,
 				C4434FF52373CF3C0022B7DE /* Main.storyboard */,
 				C4434FF82373CF3D0022B7DE /* Assets.xcassets */,
@@ -165,8 +157,6 @@
 				C4A1562F23862E9400F98B0F /* DJCalculatorVC.m */,
 				C4F61C582588C36900C3767B /* DJButtonCell.h */,
 				C4F61C592588C36900C3767B /* DJButtonCell.m */,
-				C4F61C552588C02400C3767B /* DJButtonModel.h */,
-				C4F61C562588C02400C3767B /* DJButtonModel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -321,10 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4434FF42373CF3C0022B7DE /* ViewController.m in Sources */,
 				C4C9A20E258B0DE9000D6B16 /* DJHistoryView.m in Sources */,
 				C4A1563323863DD200F98B0F /* DJCalculDataManager.m in Sources */,
-				C4F61C572588C02400C3767B /* DJButtonModel.m in Sources */,
 				C4C9A20B258B0D9B000D6B16 /* DJSettingVC.m in Sources */,
 				C4434FFF2373CF3D0022B7DE /* main.m in Sources */,
 				C4F61C5A2588C36900C3767B /* DJButtonCell.m in Sources */,

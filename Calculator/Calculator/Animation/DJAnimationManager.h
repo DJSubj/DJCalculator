@@ -14,6 +14,8 @@
 
 + (instancetype)shardManager;
 
+
+/// 雪花动画的layer
 - (CAEmitterLayer *)animationWithSnow;
 
 

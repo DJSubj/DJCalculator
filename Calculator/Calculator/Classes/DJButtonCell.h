@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DJButtonModel.h"
 
 
 @interface DJButtonCell : UICollectionViewCell
