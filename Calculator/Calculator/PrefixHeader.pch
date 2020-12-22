@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  Calculator
+//
+//  Created by 程青松 on 2019/11/7.
+//  Copyright © 2019 limingbo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//打印的日志
+#ifdef DEBUG
+#define NSLog(...) \
+NSLog(@"%@第%d行:%@",[[NSString stringWithFormat:@"%s",__FILE__] componentsSeparatedByString:@"/"][[[NSString stringWithFormat:@"%s",__FILE__] componentsSeparatedByString:@"/"].count-1], __LINE__, [NSString stringWithFormat:__VA_ARGS__]);
+#else
+#define NSLog(...)
+#endif
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#define HISTORY_DATA_PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"CalculateHistoricalData.sqlite"]
+
+#define BG_IMG_PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"bgimg.jpg"]
+
+
+#import "UIColor+DJColor.h"
+
+#endif /* PrefixHeader_pch */
